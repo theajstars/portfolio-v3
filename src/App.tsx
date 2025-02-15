@@ -8,9 +8,8 @@ export default function App() {
   const router = createBrowserRouter([{ path: "/", element: <Home /> }]);
   return (
     <div className="App">
-      <RouterProvider router={router}>
-        <Navbar />
-      </RouterProvider>
+      <Navbar />
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

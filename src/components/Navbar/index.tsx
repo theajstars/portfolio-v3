@@ -6,7 +6,7 @@ export default function Navbar() {
     <Container maxWidth="lg">
       <div className="nav-container flex-row align-center width-100 justify-between">
         <div className="left align-center flex-row">
-          <IconMail />
+          <IconMail color="red" size={50} />
         </div>
       </div>
     </Container>
