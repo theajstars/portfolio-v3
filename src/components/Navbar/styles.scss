@@ -1,0 +1,11 @@
+.nav-container {
+  // position: fixed;
+  height: 60px;
+  .left {
+    .email {
+      margin-left: 10px;
+      border-bottom: 1px dashed var(--black-primary);
+      cursor: pointer;
+    }
+  }
+}
