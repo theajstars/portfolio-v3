@@ -2,9 +2,22 @@
   .jumbotron {
     .row {
       .text {
+        font-size: 42px;
+        font-weight: 500;
+      }
+      .avatar {
+        height: 80px;
+        width: 80px;
+        border-radius: 20px;
+        border: 1px solid var(--white-primary);
+        margin: 0px 15px;
       }
     }
     .btn {
+      width: 200px;
+      height: 45px;
+      border-radius: 50px;
+      margin-top: 30px;
       .loader {
         width: 13px;
         aspect-ratio: 1;
@@ -13,6 +26,7 @@
         box-shadow: 0 0 0 0 #17f78355;
         animation: l2 1.5s infinite linear;
         position: relative;
+        margin-right: 10px;
       }
       .loader:before,
       .loader:after {
